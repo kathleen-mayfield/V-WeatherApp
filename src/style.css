@@ -36,12 +36,12 @@ li {
 .temperature {
   position: relative;
   top: 18px;
-  font-size: 50px;
+  font-size: 60px;
 }
 .units {
   position: relative;
-  bottom: 5px;
+  bottom: 12px;
 }
 .weather-conditions {
-  margin-top: 20px;
+  margin-top: 26fpx;
 }
