@@ -8,7 +8,7 @@ h1 {
   line-height: 28px;
   margin-bottom: 0;
   margin-top: 10px;
-  margin-left: 10px;
+  margin-left: 11px;
 }
 ul {
   margin: 0;
@@ -17,7 +17,6 @@ ul {
 }
 li {
   list-style: none;
-
   margin-left: 3px;
   padding: 0;
   color: #878787;
@@ -26,11 +25,11 @@ li {
   line-height: 19px;
 }
 .weather-app-wrapper {
-  max-width: 500px;
+  max-width: 600px;
   margin: 50px auto;
 }
 .weather-app {
-  max-width: 450px;
+  max-width: 600px;
   border: 1px solid #dadde1;
   border-radius: 5px;
 }
@@ -46,6 +45,6 @@ li {
 .weather-conditions {
   margin-top: 26px;
 }
-.description {
+.description:first-letter {
   text-transform: capitalize;
 }

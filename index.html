@@ -21,13 +21,29 @@
     <div class="container">
       <div class="weather-app-wrapper">
         <div class="weather-app">
+          <form id="search-form" class="mt-3">
+            <div class="row">
+              <div class="col-9">
+                <input
+                  type="search"
+                  placeholder="Enter a city"
+                  class="form-control"
+                  id="city-input"
+                  autocomplete="off"
+                />
+              </div>
+              <div class="col-3">
+                <input type="submit" value="Search" class="btn btn-primary" />
+              </div>
+            </div>
+          </form>
           <h1 id="city"></h1>
           <ul>
-            <li id="date">Friday 05:00</li>
+            <li>Last updated: <span id="date"></span></li>
             <li class="description" id="description"></li>
           </ul>
           <div class="row">
-            <div class="col-6">
+            <div class="col-7">
               <img
                 src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
                 alt="Clear"
@@ -36,7 +52,7 @@
               <span class="temperature" id="temperature">12</span>
               <span class="units"> °C | <a href="#">°F</a> </span>
             </div>
-            <div class="col-6">
+            <div class="col-5">
               <div class="weather-conditions">
                 <ul>
                   <li>Humidity: <span id="humidity"></span>%</li>
