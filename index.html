@@ -21,7 +21,7 @@
     <div class="container">
       <div class="weather-app-wrapper">
         <div class="weather-app">
-          <form id="search-form" class="mt-3">
+          <form id="search-form">
             <div class="row">
               <div class="col-9">
                 <input
@@ -43,16 +43,19 @@
             <li class="description" id="description"></li>
           </ul>
           <div class="row">
-            <div class="col-7">
+            <div class="col-8">
               <img
                 src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
                 alt="Clear"
                 id="icon"
               />
-              <span class="temperature" id="temperature">12</span>
-              <span class="units"> °C | <a href="#">°F</a> </span>
+              <span class="temperature" id="temperature"></span>
+              <span class="units"
+                ><a href="#" id="celsius-link" class="active"> °C</a> |
+                <a href="#" id="fahrenheit-link" class="active">°F</a>
+              </span>
             </div>
-            <div class="col-5">
+            <div class="col-4">
               <div class="weather-conditions">
                 <ul>
                   <li>Humidity: <span id="humidity"></span>%</li>
